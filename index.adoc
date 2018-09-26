@@ -2,6 +2,7 @@
 :imagesdir: https://ice-wm.org/themes
 :toc:
 :toc-placement!:
+:!webfonts:
 
 [[icewm-theme-creation-howto]]
 IceWM Theme Creation Howto
