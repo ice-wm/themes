@@ -516,6 +516,6 @@ Adam Pribyl, and may be freely reproduced unaltered but with
 annotations. The latest version should always be on the
 https://ice-wm.org[IceWM Website].
 If you wish to improve this document, please send a message to
-covex@ahoj.fsik.cvut.cz.
+covex@lowlevel.cz.
 
 // vim: set ft=asciidoc tw=72 nocin nosi fo+=tcqlorn:
