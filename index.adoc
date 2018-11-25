@@ -255,17 +255,32 @@ You need four pixmaps to change whole taskbar look
     taskbuttonminimized.xpm
 ....
 
+For workspace buttons there are:
+
+....
+    workspacebuttonbg.xpm
+    workspacebuttonactive.xpm
+....
+
 You can also change the *Start* button.
 
 ....
     start.xpm
 ....
 
-and buttons for windows list and show desktop.
+("icewm.xpm" and "linux.xpm" are now deprecated.)
+
+Buttons for windows list and show desktop.
 
 ....
     windows.xpm
     desktop.xpm
+....
+
+The default toolbar button:
+
+....
+    toolbuttonbg.xpm
 ....
 
 All pixmaps for the taskbar need to be in the subdirectory *taskbar*.
@@ -392,6 +407,35 @@ and/or path (if you do not add path to icons to IconPath pref).
 
 The default sizes of icons could be set in prefs with *IconSize options.
 
+[[other-buttons-and-backgrounds]]
+Other Buttons and Backgrounds
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Default active and inactive buttons:
+
+....
+    buttonA.xpm
+    buttonI.xpm
+....
+
+Menu pixmaps:
+
+....
+    menusel.xpm
+    menusep.xpm
+    menubg.xpm
+....
+
+Background for dialogs and the window list:
+
+....
+    dialogbg.xpm
+    listbg.xpm
+    logoutbg.xpm
+    switchbg.xpm
+....
+
+
 [[cursors]]
 Cursors
 ~~~~~~~
@@ -402,6 +446,14 @@ B, BL, BR, L, R, T, TL). Pointers for *scroll*
 begin with *"scroll"* followed by L, R, U or D (think **L**eft,
 **R**ight, **U**p, **D**own). Cursors are placed in *cursors*
 subdirectory.
+
+Direction cursors are:
+
+....
+    left.xpm
+    right.xpm
+    move.xpm
+....
 
 [[gradients]]
 Gradients
