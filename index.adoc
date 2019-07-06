@@ -10,7 +10,7 @@ IceWM Theme Creation Howto
 
 *Adam Pribyl, covex@lowlevel.cz* +
 MJ Ray, markj@stu.uea.ac.uk +
-Last updated for IceWM-1.4.2.
+Last updated for IceWM-1.5.5.
 
 toc::[]
 
@@ -25,10 +25,10 @@ specify all IceWM options related to appearance (color definitions) and
 behaviour, in the usual preferences format of "Option=Value" on each
 line; (some of the preferences/values are not allowed to change in theme
 specification)
-* a collection of pixmaps (XPM files) which are used for building the
-window decorations;
-* a collection of pixmaps (XPM files) for cursors, special icons,
-mailbox and task bar;
+* a collection of pixmaps (XPM and PNG files) which are used for
+building the window decorations;
+* a collection of pixmaps (XPM and PNG files) for cursors, special
+icons, mailbox and task bar;
 
 *It should not contain a large backdrop graphic or specify any options
 not related to its appearance.*
@@ -60,7 +60,8 @@ Pixmaps creation tools
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Most people use some combination of a paint package - GIMP and xpaint
-can create XPM files - and a text editor to create and correct pixmaps.
+can create XPM and PNG files - and a text editor to create and correct
+XPM pixmaps.
 If the text editor has configurable syntax highlighting and the pixmaps
 are smaller than your screen, this is a simple way to work closely on a
 zoomed preview.
@@ -81,7 +82,8 @@ window frame section). The next letter is *"A"* for an *active*
 (frame sections and title bars) then have a character to denote which
 part it is. Finally, you have ".xpm" on the end.
 
-You can use XPM files with all available features like transparency.
+You can use XPM and PNG files with all available features like
+transparency.
 This way you can create particulary transparent frames, titles, buttons,
 etc.
 
