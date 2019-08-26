@@ -10,7 +10,7 @@ IceWM Theme Creation Howto
 
 *Adam Pribyl, covex@lowlevel.cz* +
 MJ Ray, markj@stu.uea.ac.uk +
-Last updated for IceWM-1.5.5.
+Last updated for IceWM-1.6.1.
 
 toc::[]
 
@@ -500,6 +500,12 @@ Colors for **frames, taskbar, menu, tooltips, dialogs, listboxes,
 scrollbars and desktop**.
 You can combine pixmap and color themeability as you wish.
 For details you need to look trough the IceWM preferences file.
+
+Colors are specified in RGB hex format like `ColorApm="rgb:12/89/ef"`.
+Since 1.6.0 an alpha component for translucency effects can be added
+in two ways. Either add an opacity percentage between 1 and 100
+enclosed in square brackets like `ColorApm="[80]rgb:12/89/ef"`,
+or use RGBA hex format like `ColorApm="rgba:12/89/ef/cc"`.
 
 [[default.theme]]
 default.theme
