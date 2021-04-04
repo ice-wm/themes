@@ -10,7 +10,7 @@ IceWM Theme Creation Howto
 
 *Adam Pribyl, covex@lowlevel.cz* +
 MJ Ray, markj@stu.uea.ac.uk +
-Last updated for IceWM-1.6.1.
+Last updated for IceWM-2.3.1.
 
 toc::[]
 
@@ -455,6 +455,36 @@ Direction cursors are:
     left.xpm
     right.xpm
     move.xpm
+....
+
+Resize cursros are:
+
+....
+    sizeR.xpm
+    sizeTR.xpm
+    sizeT.xpm
+    sizeTL.xpm
+    sizeL.xpm
+    sizeBL.xpm
+    sizeB.xpm
+    sizeBR.xpm
+....
+
+Scroll cursors are:
+
+....
+    scrollL.xpm
+    scrollR.xpm
+    scrollU.xpm
+    scrollD.xpm
+....
+
+Remember to define the
+https://en.wikipedia.org/wiki/X_PixMap#XPM3[cursor hotspot].
+
+....
+    /* <width> <height> <colors> <chars-per-pixel> <x-hotspot> <y-hotspot> */
+    "16 16 2 1 10 4",
 ....
 
 [[gradients]]
