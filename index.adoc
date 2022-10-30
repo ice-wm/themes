@@ -457,7 +457,7 @@ Direction cursors are:
     move.xpm
 ....
 
-Resize cursros are:
+Resize cursors are:
 
 ....
     sizeR.xpm
