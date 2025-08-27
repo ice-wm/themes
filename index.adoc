@@ -444,43 +444,42 @@ Background for dialogs and the window list:
 Cursors
 ~~~~~~~
 
-Pointers for *resize* begin with *"size"* followed by frame part name
-(e.g. *sizeTR.xpm* is pointer for resize **T**op **R**ight, same for
-B, BL, BR, L, R, T, TL). Pointers for *scroll*
-begin with *"scroll"* followed by L, R, U or D (think **L**eft,
-**R**ight, **U**p, **D**own). Cursors are placed in *cursors*
-subdirectory.
-
-Direction cursors are:
+There are 15 possible cursors. Three direction cursors:
 
 ....
-    left.xpm
-    right.xpm
-    move.xpm
+    left
+    right
+    move
 ....
 
-Resize cursors are:
+Eight resize cursors:
 
 ....
-    sizeR.xpm
-    sizeTR.xpm
-    sizeT.xpm
-    sizeTL.xpm
-    sizeL.xpm
-    sizeBL.xpm
-    sizeB.xpm
-    sizeBR.xpm
+    sizeB
+    sizeBL
+    sizeBR
+    sizeL
+    sizeR
+    sizeT
+    sizeTL
+    sizeTR
 ....
 
-Scroll cursors are:
+Four scroll cursors:
 
 ....
-    scrollL.xpm
-    scrollR.xpm
-    scrollU.xpm
-    scrollD.xpm
+    scrollD
+    scrollL
+    scrollR
+    scrollU
 ....
 
+Here the capitals have the following meaning:
+B=bottom, D=down, L=left, R=right, T=top, U=up.
+
+Cursors are placed in *cursors* subdirectory.
+There are two file formats. If a cursor file
+ends in a **.xpm** extension it must be a XPM file.
 Remember to define the
 https://en.wikipedia.org/wiki/X_PixMap#XPM3[cursor hotspot].
 
@@ -488,6 +487,13 @@ https://en.wikipedia.org/wiki/X_PixMap#XPM3[cursor hotspot].
     /* <width> <height> <colors> <chars-per-pixel> <x-hotspot> <y-hotspot> */
     "16 16 2 1 10 4",
 ....
+
+Instead, since version 3.8.3, a cursor file can
+be **without** an extension. Then it must be a
+Xcursor file. This can be generated using
+*xcursorgen* or with the *icecursor* program
+that is in the source distribution.
+
 
 [[gradients]]
 Gradients
