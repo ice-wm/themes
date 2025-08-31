@@ -477,7 +477,7 @@ Four scroll cursors:
 Here the capitals have the following meaning:
 B=bottom, D=down, L=left, R=right, T=top, U=up.
 
-Cursors are placed in *cursors* subdirectory.
+Cursors are placed in the *cursors* subdirectory.
 There are two file formats. If a cursor file
 ends in a **.xpm** extension it must be a XPM file.
 Remember to define the
@@ -493,7 +493,9 @@ be **without** an extension. Then it must be a
 Xcursor file. This can be generated using
 *xcursorgen* or with the *icecursor* program
 that is in the source distribution.
-
+This format supports alpha transparency, allowing
+for smooth edges and visually appealing cursors
+that blend well with different backgrounds.
 
 [[gradients]]
 Gradients
