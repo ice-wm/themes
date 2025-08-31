@@ -10,7 +10,7 @@ IceWM Theme Creation Howto
 
 *Adam Pribyl, covex@lowlevel.cz* +
 MJ Ray, markj@stu.uea.ac.uk +
-Last updated for IceWM-3.6.0.
+Last updated for IceWM-3.9.0.
 
 toc::[]
 
@@ -488,7 +488,7 @@ https://en.wikipedia.org/wiki/X_PixMap#XPM3[cursor hotspot].
     "16 16 2 1 10 4",
 ....
 
-Instead, since version 3.8.3, a cursor file can
+Instead, since version 3.9.0, a cursor file can
 be **without** an extension. Then it must be a
 Xcursor file. This can be generated using
 *xcursorgen* or with the *icecursor* program
